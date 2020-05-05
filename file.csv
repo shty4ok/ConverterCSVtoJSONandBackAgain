@@ -1,0 +1,143 @@
+AUTH;;;
+;LOGIN;;Введите логин
+;PASSWORD;;Введите пароль
+SORTING;;;
+;ALPHABETICALLY;;По алфавиту
+;BYDEVICE;;По количеству аппаратов
+NAVBAR;;;
+;OBJNAV;;Обьекты
+;CLIENTNAV;;Клиенты
+;DEVICENAV;;Аппараты
+;JOURNALSNAV;;Журналы
+ITEMSCOUNT;;;
+;ITEMSCOUNT;;Карточек на странице
+INDEX;;;
+;OBJMAP;;Карта обьектов
+;ENTERCITY;;Введите город
+;ENTERADDRESS;;Введите адрес
+;FILTERS;;Фильтры
+;;;
+;;;
+CLIENT;;;
+;CARD;;
+;;MALFACTION;Неисправных аппаратов
+;;ADDRESS;Адресов
+;;DEVICES;Аппаратов
+;;PERSONALAREA;Личный кабинет
+;;LOGIN;Логин
+;;PASSWORD;Пароль
+;;RESET;Сбросить
+;;DELETE;Удалить
+;SEARCH;;
+;;NAME;Имя клиента
+DEVICE;;;
+;CARD;;
+;;CATEGORY;Категория
+;;AROMA;Аромат
+;;DEVICE;Аппарат
+;;FLUIDDAYSLEFT;Остатки аромата
+;;DAYS;дней
+;;REFILL;Наполнить
+;;ONLINE;На связи
+;;COMPRESSOR;Компрессор
+;;FAN;Вентилятор
+;;TIMER;Таймер
+;;DEVICEMODE;Режим работы
+;;ON;Вкл
+;;OFF;Выкл
+;CARDDETAIL;;
+;;DEVICECARD;Карточка аппарата
+;;CLIENT;Клиент
+;;PROPERTY;Обьект
+;;DEVICESBYPROPERTY;Аппаратов на обьекте
+;;DEVICESBYCLIENT;Аппараты клиента
+;;CATEGORY;Категория
+;;PLACEDESCRIPTION;Местопложение
+;;FLUIDLEFTBY;Аромат закончится через
+;;DAYS;дней
+;;REFILL;Наполнить
+;;BALANCE;Остаток на счете
+;;RUB;руб
+;;LASTCONNECTION;Устройство еще не подключалось
+;;ON;Включено
+;;DEVICE;Аппарат
+;;FAN;Вентилятор
+;;PROPERLY;Исправно
+;;ONLINE;На связи
+;;COMPRESSOR;Компрессор
+;;TIMER;Таймер
+;;UPDATE;Обновить данные
+;FILTER;;
+;;FILTERS;Фильтры
+;;CLIENTNAME;Введите название клиента
+;;PHONENUMBER;Введите № телефона
+;;BROKEN;С неисправностями
+;;LOWFLUID;С низким уровнем жидкости
+;DEVICES;;Аппараты
+JOURNALS;;;
+;JOURNALS;;Журналы операций
+;DATEANDTIME;;Дата/Время
+;MESSAGE;;Сообщение
+;USER;;Пользователь
+;PROPERTY;;Обьект
+;CLIENT;;Клиент
+;DEVICE;;Аппарат
+ADDDEVICE;;;
+;INSTALLDEVICE;;Установить новый аппарат
+;NOTSELECT;;Не выбрано
+;CATEGORY;;Категория
+;PLACEDESCRIPTION;;Местоположение
+;FLUIDFILLVOLUME;;Стартовое наполнение
+;ON;;Включено
+;DEVICE;;Аппарат
+;PHONENUMBER;;№ телефона
+;UPDATE;;Обновить данные
+DEVICETIMETABLE;;;
+;STARTOFINTERVAL;;Начало интервала
+;COPYTIMETABLE;;
+;;SCHEDULE;Расписание
+;;SELECTSID;Выбрать SID
+;;COPY;Скопировать расписание
+ADD;;;
+;CLIENT;;
+;;CLIENT;Добавить нового клиента
+;;NAME;Название клиента
+;;ENTERNAME;Введите название
+;;ENTERNAMEPATTERN;Введите латинские заглавные или строчные буквы, цифры от 0 до 9
+;;ClIENTDISCRIPTION;Описание клиента
+;;LOGIN;Логин
+;;LOGINPATTERN;"Введите латинские заглавные или строчные буквы, цифры от 0 до 9, символы: "" - "" и "" _ """
+;;LOGINLENGTH;Длина логина от 8 до 16 символов
+;;PASSWORD;Пароль к личному кабинету
+;;ENTERPASSWORD;Введите пароль
+;;PASSWORDLENGTH;Длина пароля от 8 до 16 символов
+;;PASSWORDPATTERN;Используйте латинские заглавные и прописные буквы, символы и цифры
+;;ADD;Добавить в справочник
+;OBJECT;;
+;;OBJECT;Добавить новый обьект
+;;NAME;Название обьекта
+;;ENTERNAME;Введите название обьекта
+;;ENTERNAMEPATTERN;Введите латинские заглавные или строчные буквы, цифры от 0 до 9
+;;CITY;Город
+;;NOTSELECT;не выбран
+;;CHECKCITYSELECT;Не выбран город
+;;ADDRESS;Адрес
+;;CHECKADDRESSSELECT;Укажите адрес обьекта
+;;HYPERMARKET;Гипермаркет
+;;ADD;Добавить в справочник
+UI;;;
+;MODELNAME;;Марка аппарата
+;CLIENT;;Клиент
+;CITY;;Город
+;AROMA;;Аромат
+;CONFIRMATIONMODAL;;
+;;ACCEPTLABEL;Подтвердите операцию
+;;ACCEPT;Подтвердите
+;;CANCEL;Отмена
+;FLUIDLEVEL;;
+;;FLUIDLEVEL;Уровень жидкости
+;;ALL;Все
+;;MAX10;До 10 дней
+;;BETWEEN;От 11 до 20 дней
+;;MORETHEN;Больше 20 дней
+;PROPERTY;;Обьект
