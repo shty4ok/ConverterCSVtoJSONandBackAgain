@@ -2,6 +2,7 @@ AUTH;;;
 ;LOGIN;;Введите логин
 ;PASSWORD;;Введите пароль
 SORTING;;;
+;SORTING;;Сортировать:
 ;ALPHABETICALLY;;По алфавиту
 ;BYDEVICE;;По количеству аппаратов
 NAVBAR;;;
@@ -10,7 +11,7 @@ NAVBAR;;;
 ;DEVICENAV;;Аппараты
 ;JOURNALSNAV;;Журналы
 ITEMSCOUNT;;;
-;ITEMSCOUNT;;Карточек на странице
+;ITEMSCOUNT;;Карточек на странице:
 INDEX;;;
 ;OBJMAP;;Карта обьектов
 ;ENTERCITY;;Введите город
@@ -21,58 +22,61 @@ INDEX;;;
 CLIENT;;;
 ;CARD;;
 ;;MALFACTION;Неисправных аппаратов
-;;ADDRESS;Адресов
-;;DEVICES;Аппаратов
-;;PERSONALAREA;Личный кабинет
-;;LOGIN;Логин
-;;PASSWORD;Пароль
+;;ADDRESS;Адресов:
+;;DEVICES;Аппаратов:
+;;PERSONALAREA;Личный кабинет:
+;;LOGIN;Логин:
+;;PASSWORD;Пароль:
 ;;RESET;Сбросить
 ;;DELETE;Удалить
 ;SEARCH;;
 ;;NAME;Имя клиента
 DEVICE;;;
 ;CARD;;
-;;CATEGORY;Категория
-;;AROMA;Аромат
-;;DEVICE;Аппарат
-;;FLUIDDAYSLEFT;Остатки аромата
+;;TITLE;Редактировать карточку
+;;CATEGORY;Категория:
+;;AROMA;Аромат:
+;;DEVICE;Аппарат:
+;;FLUIDDAYSLEFT;Остатки аромата:
 ;;DAYS;дней
 ;;REFILL;Наполнить
 ;;ONLINE;На связи
 ;;COMPRESSOR;Компрессор
 ;;FAN;Вентилятор
 ;;TIMER;Таймер
-;;DEVICEMODE;Режим работы
+;;DEVICEMODE;Режим работы:
 ;;ON;Вкл
 ;;OFF;Выкл
 ;CARDDETAIL;;
 ;;DEVICECARD;Карточка аппарата
-;;CLIENT;Клиент
-;;PROPERTY;Обьект
+;;CLIENT;Клиент:
+;;PROPERTY;Обьект:
 ;;DEVICESBYPROPERTY;Аппаратов на обьекте
 ;;DEVICESBYCLIENT;Аппараты клиента
 ;;CATEGORY;Категория
 ;;PLACEDESCRIPTION;Местопложение
-;;FLUIDLEFTBY;Аромат закончится через
+;;FLUIDLEFTBY;Аромат закончится через:
 ;;DAYS;дней
 ;;REFILL;Наполнить
-;;BALANCE;Остаток на счете
-;;RUB;руб
+;;BALANCE;Остаток на счете:
+;;RUB;руб.
 ;;LASTCONNECTION;Устройство еще не подключалось
-;;ON;Включено
+;;ON;Включено:
 ;;DEVICE;Аппарат
 ;;FAN;Вентилятор
-;;PROPERLY;Исправно
+;;PROPERLY;Исправно:
 ;;ONLINE;На связи
 ;;COMPRESSOR;Компрессор
 ;;TIMER;Таймер
+;;COMPRESSORSTATUS;Компрессор (Вкл/Выкл):
+;;FANSTATUS;Вентилятор (Вкл/Выкл):
 ;;UPDATE;Обновить данные
 ;FILTER;;
 ;;FILTERS;Фильтры
 ;;CLIENTNAME;Введите название клиента
 ;;PHONENUMBER;Введите № телефона
 ;;BROKEN;С неисправностями
-;;LOWFLUID;С низким уровнем жидкости
+;;LOWFLUIDLEVEL;С низким уровнем жидкости
 ;DEVICES;;Аппараты
 JOURNALS;;;
 ;JOURNALS;;Журналы операций
@@ -88,7 +92,8 @@ ADDDEVICE;;;
 ;CATEGORY;;Категория
 ;PLACEDESCRIPTION;;Местоположение
 ;FLUIDFILLVOLUME;;Стартовое наполнение
-;ON;;Включено
+;UOM;;мл
+;ON;;Включено:
 ;DEVICE;;Аппарат
 ;PHONENUMBER;;№ телефона
 ;UPDATE;;Обновить данные
@@ -106,23 +111,25 @@ ADD;;;
 ;;ENTERNAMEPATTERN;Введите латинские заглавные или строчные буквы, цифры от 0 до 9
 ;;ClIENTDISCRIPTION;Описание клиента
 ;;LOGIN;Логин
+;;INSERTLOGIN;Введите логин
 ;;LOGINPATTERN;"Введите латинские заглавные или строчные буквы, цифры от 0 до 9, символы: "" - "" и "" _ """
 ;;LOGINLENGTH;Длина логина от 8 до 16 символов
 ;;PASSWORD;Пароль к личному кабинету
-;;ENTERPASSWORD;Введите пароль
+;;INSERTPASSWORD;Введите пароль
 ;;PASSWORDLENGTH;Длина пароля от 8 до 16 символов
 ;;PASSWORDPATTERN;Используйте латинские заглавные и прописные буквы, символы и цифры
 ;;ADD;Добавить в справочник
 ;OBJECT;;
-;;OBJECT;Добавить новый обьект
+;;ADDOBJECT;Добавить новый обьект
 ;;NAME;Название обьекта
-;;ENTERNAME;Введите название обьекта
-;;ENTERNAMEPATTERN;Введите латинские заглавные или строчные буквы, цифры от 0 до 9
+;;INSERTNAME;Введите название обьекта
+;;INSERTNAMEPATTERN;Введите латинские заглавные или строчные буквы, цифры от 0 до 9
 ;;CITY;Город
 ;;NOTSELECT;не выбран
 ;;CHECKCITYSELECT;Не выбран город
 ;;ADDRESS;Адрес
 ;;CHECKADDRESSSELECT;Укажите адрес обьекта
+;;TYPE;Тип
 ;;HYPERMARKET;Гипермаркет
 ;;ADD;Добавить в справочник
 UI;;;
@@ -135,9 +142,13 @@ UI;;;
 ;;ACCEPT;Подтвердите
 ;;CANCEL;Отмена
 ;FLUIDLEVEL;;
-;;FLUIDLEVEL;Уровень жидкости
+;;FLUIDLEVEL;Уровень жидкости:
 ;;ALL;Все
 ;;MAX10;До 10 дней
 ;;BETWEEN;От 11 до 20 дней
 ;;MORETHEN;Больше 20 дней
 ;PROPERTY;;Обьект
+MODALS;;;
+;DEVICEFILTER;;
+;;OK;Хорошо
+;;RESETFILTER;Сбросить фильтр

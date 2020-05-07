@@ -58,7 +58,7 @@ function createObj(chain) {
         forTranslate = '';
     }
     // console.dir(countObj);
-    fs.writeFile('translate.json', JSON.stringify(countObj), (err) => {
+    fs.writeFileSync('translate.json', JSON.stringify(countObj), (err) => {
         if (err) throw err;
         console.log('Data has been added');
     })
@@ -80,9 +80,8 @@ function createObj(chain) {
 
     const jsonFileData = Papa.unparse(jsonContent, config);
     console.log(jsonFileData);
-    fs.writeFile('translate.csv', jsonFileData,(err)=> {
+    fs.writeFileSync('translate.csv', jsonFileData,(err)=> {
         if (err) throw err;
         console.log('CSV CREATE');
     })
 }
-
